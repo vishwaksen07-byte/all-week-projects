@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0; 
+    box-sizing: border-box;
+
+}
+div{
+    border:1px solid black;
+}
+.parent {
+    display: flex;
+    background-color: lightblue;
+}

@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.loginbox{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(171, 41, 41, 0.885);
+}
+.logincontainer{
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  height: 500px;
+  background-color: white;
+  border-radius: 30px;
+  overflow: hidden;
+  
+}
+.loginart{
+  flex:1;
+  background-color:rgb(74, 58, 54);
+  background-position:center;
+  color: whitesmoke;
+  padding:20px;
+  text-align:center;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+}
+body{
+  font-family: sans-serif;
+}
+.loginpage{
+  width: 100%;
+  max-width: 400px;
+  padding:100px;
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+
+}
+
+input,button{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 100px;
+}
+button{
+  background-color: rgba(201, 60, 60, 0.885);
+
+}
